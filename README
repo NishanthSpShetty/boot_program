@@ -1,5 +1,6 @@
 #Bare bone assembly program
 
-Compile :
-		make
-Create bootable file/iso to run the code
+Required:
+	qemu emulator for running
+To run:
+	make qemu
