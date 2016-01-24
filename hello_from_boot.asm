@@ -21,7 +21,7 @@ done:
 	ret
 
 str: db 'Hello world from bootloader',10,13,0;
-str1: db 'Thank you...",0
+str1: db 'Thank you...',0
 
 times 510-($-$$) db 0
 
