@@ -1,0 +1,5 @@
+#Bare bone assembly program
+
+Compile :
+		make
+Create bootable file/iso to run the code
