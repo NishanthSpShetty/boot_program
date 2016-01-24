@@ -3,6 +3,8 @@ bits 16
 Start:
 	mov si,str
 	call print
+	mov si,str1
+	call print
 	hlt
 print:
 	mov ah,0x0E
@@ -18,7 +20,8 @@ next_char:
 done:
 	ret
 
-str: db 'Hello nishanth from bootloader',0;
+str: db 'Hello world from bootloader',10,13,0;
+str1: db 'Thank you...",0
 
 times 510-($-$$) db 0
 
